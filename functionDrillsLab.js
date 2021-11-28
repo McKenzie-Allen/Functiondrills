@@ -58,7 +58,11 @@ printName("McKenzie")
 */
 
 //CODE HERE
+function greeting(name) {
+    console.log("Hello " + name)
+}
 
+greeting("Mike")
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -72,7 +76,10 @@ printName("McKenzie")
 */
 
 //CODE HERE
-
+const compareNums = (num1, num2) => {
+    return (num1 >= num2 ? num1 : num2)
+}
+console.log(compareNums(4, 5))
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -83,7 +90,10 @@ printName("McKenzie")
 */
 
 //CODE HERE
-
+function add(num1, num2) {
+    return (Number(num1) + Number(num2))
+}
+console.log(add(3, 4))
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -98,7 +108,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+expression
 
 
 
