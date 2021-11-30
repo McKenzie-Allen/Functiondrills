@@ -108,7 +108,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-expression
+// expression
 
 
 
@@ -162,7 +162,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+function nameCheck(name) {
+    if (name === "Steven") {
+        console.log("what is up Steven?")
+    } else if (name === "Bryan") {
+        console.log("Hey Bryan!")
+    } else {
+        console.log(`Cool name ${name}`)
+    }
+}
 
+let nameGreeting = nameCheck("McKenzie")
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
@@ -175,9 +185,21 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+function faveColorFinder(color) {
+    switch (color) {
+        case "red":
+            console.log("Red is a great color");
+        case "green":
+            console.log("Green is a solid favorite color");
+        case "black":
+            console.log("so trendy");
+        default:
+            console.log("you need to evaluate your favorite color choice");
+    }
+}
 
-
-////////////////// PROBLEM 12 ////////////////////
+let colorRating = faveColorFinder("Blue")
+    ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     /*
       Create a function called printAllNames that takes in a single argument (an array of names).
